@@ -1,0 +1,11 @@
+{
+  "project_name": "ProjectName",
+  "project_short_description": "Short description",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_directory": "{{ cookiecutter.project_slug.replace('_', '-') }}",
+  "full_name": "Michael Henry",
+  "email": "drmikehenry@drmikehenry.com",
+  "github_username": "drmikehenry",
+  "year": "{% now 'utc', '%Y' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
+}
