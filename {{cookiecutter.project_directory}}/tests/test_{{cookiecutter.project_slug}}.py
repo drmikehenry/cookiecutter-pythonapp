@@ -5,4 +5,4 @@ import {{cookiecutter.project_slug}}
 
 
 def test_todo() -> None:
-    assert "TODO: Make tests" is None
+    assert "TODO: Make tests" != {{cookiecutter.project_slug}}.__version__
