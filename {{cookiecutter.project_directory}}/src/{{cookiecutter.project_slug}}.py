@@ -2,8 +2,8 @@
 # coding=utf-8
 
 import argparse
-from typing import Any
 import sys
+from typing import Any
 
 
 __version__ = "0.1.0"
